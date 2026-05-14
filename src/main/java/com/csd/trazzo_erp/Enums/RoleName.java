@@ -1,4 +1,5 @@
-package com.csd.trazzo_erp.Enums;
+package com.csd.trazzo_erp.enums;
+
 
 public enum RoleName {
     ROLE_ADMIN,

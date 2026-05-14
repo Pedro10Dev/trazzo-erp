@@ -1,6 +1,6 @@
 package com.csd.trazzo_erp.models;
 
-import com.csd.trazzo_erp.Enums.RoleName;
+import com.csd.trazzo_erp.enums.RoleName;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

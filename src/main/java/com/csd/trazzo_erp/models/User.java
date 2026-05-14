@@ -33,6 +33,9 @@ public class User extends BaseEntity{
 
     private boolean enabled = true;
 
+    @Column(name = "is_account_non_expired", nullable = false)
+    private boolean isAccountNonExpired = true;
+
     @OneToOne(cascade = CascadeType.ALL, optional = false)
     @JoinColumn(name = "person_id", referencedColumnName = "id", nullable = false)
     private Person person;
@@ -44,5 +47,6 @@ public class User extends BaseEntity{
         inverseJoinColumns = @JoinColumn(name = "role_id")
     )
     private Set<Role> roles = new HashSet<>();
+
     
 }

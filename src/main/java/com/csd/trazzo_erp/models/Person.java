@@ -2,7 +2,7 @@ package com.csd.trazzo_erp.models;
 
 import java.time.LocalDate;
 
-import com.csd.trazzo_erp.Enums.DocumentType;
+import com.csd.trazzo_erp.enums.DocumentType;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
